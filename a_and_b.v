@@ -8,5 +8,5 @@ module a_and_b (
 
 and (c,a,b);
 assign d = a^b;
-assign ouit = a | b;
+assign out = a | b;
 endmodule
