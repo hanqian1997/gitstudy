@@ -5,12 +5,13 @@ module a_and_b (
     output	    d,
     output	    out,
     output      y,
-    output      out_not
+    output      bug1
+   
 );
 
 and (c,a,b);
 assign d = a^b;
 assign out = a | b;
 or (y,a,b);
-not(a,out_not);
+not(a,bug1);
 endmodule
